@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=https://unpkg.com/hangfolio@0/schema/site.json
+# START HERE. Your site's settings: change the text inside the quotes and keep the spacing.
+# Lines marked "# example" are the made-up demo person's. Replace the five marked "required";
+# change or delete the others. Help: https://github.com/hangfolio/hangfolio/blob/v1/docs/site-yaml.md
+
+name: "Rowan Vale"                                     # example (required): your name
+tagline: "I build storage systems that stay correct when machines fail."   # example (required)
+role: "PhD student in Computer Science"                # example (required): your position
+affiliation: { name: "Example University", url: "https://example.edu" }   # example (required); or just "Your University"
+email: "rowan@example.edu"                             # example (required): your email address
+location: "Port Alder, WA"                             # example: change or delete
+# pronouns: "she/her"                                  # optional: remove the # to show
+# nameVariants: ["R. Vale"]                            # optional: other spellings of your name in author lists
+avatar: "/example/avatar.jpg"                          # example: upload your photo to public/images/ and put its path here
+ogImage: "/example/og.png"                             # example: the picture shown when your site is shared; delete to use your photo
+cv: "/example/cv.pdf"                                  # example: upload your CV to public/files/ and put its path here
+
+links:                                                 # example: your profiles, in the order they show
+  - "https://github.com/hangfolio"                     # example
+  - "https://scholar.google.com/"                      # example
+  - { url: "https://orcid.org/0000-0002-1825-0097", label: "ORCID" }   # example
+  - { url: "https://www.linkedin.com/", contact: false }               # example: contact: false keeps it off /contact
+
+availability:                                          # example: edit or delete the whole block
+  headline: "Open to research internships · Summer 2027."               # example
+  detail: "Back at Example University in the fall."                     # example
+  contact: "I'm looking for a **Summer 2027** research internship in storage or distributed systems."   # example
+  emailSubject: "Summer 2027 internship"                                # example: the subject of the Email button
+  until: 2027-06-01                                                     # example: the box hides itself after this date
+
+booking:                                               # example: edit or delete the whole block
+  calcom: "rowan-vale/30min"                           # example: your Cal.com name/event, or link: "https://…" for any booking page
+
+# ---------- optional, rarely needed (remove the # to use a line) ----------
+# nav: [research, projects, writing, cv, booking]
+# pages: { experience: { path: "/experience" }, meet: false }
+# redirects: [{ from: "/about.html", to: "/" }]
+# url: "https://example.com"     # pins canonical URLs; normally detected from GitHub Pages
